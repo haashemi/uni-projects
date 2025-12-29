@@ -1,0 +1,23 @@
+// Simple log
+log("vvvvvvvvvvvv")
+log("Hello World!")
+log("^^^^^^^^^^^^")
+
+// Empty log
+log("")
+
+// Define a string variable
+str prefix = "Current Working Directory is:"
+
+// Formatted log using variables
+// 'pwd' is a standard variable here!
+log[prefix, pwd]("%str% %str%")
+
+log("")
+log("")
+
+// Define integer and string variables
+int age = 22
+str name = "Ali Hashemi"
+
+log[name, age]("Hello! I'm %str%. A %int% years old newbie developer!")
